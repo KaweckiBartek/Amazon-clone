@@ -25,6 +25,8 @@ const Home = () => {
           />
 
         </div>
+        
+        <div className="home__row">
         <Product
           title="The lean startup"
           price={ 29.99 }
@@ -43,8 +45,6 @@ const Home = () => {
           image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
           rating={ 5 }
         />
-        <div className="home__row">
-
         </div>
         <Product
           title="The lean startup"
